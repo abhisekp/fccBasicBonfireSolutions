@@ -7,10 +7,8 @@ var chai = require("chai"),
     expect = chai.expect,
     assert = chai.assert;
 
-
-
 describe("Test Runs Successfully", function() {
     it("should return true", function() {
-
+        assert(true, "this is a truthy value");
     });
 });
