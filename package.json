@@ -7,7 +7,9 @@
   },
   "version": "4.0.0",
   "description": "Abhisek Pattnaik FreeCodeCamp Basic Bonfire Challenge Solutions",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.3.1"
+  },
   "scripts": {
     "test": "mocha tests/*.js"
   },
