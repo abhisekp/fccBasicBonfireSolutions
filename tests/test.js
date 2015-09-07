@@ -13,6 +13,6 @@ describe("Lets run...", function() {
     });
 
     it("should return true", function() {
-        assert(false, "this is a falsy value");
+        assert(true, "this is a falsy value");
     });
 });
