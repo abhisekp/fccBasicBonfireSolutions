@@ -1,6 +1,7 @@
 {
   "name": "fcc-challenges",
   "main": "./lib/fcc-basic-bonfire-solutions",
+  "private": true,
   "dependencies": {
     "chai": "^3.2.0"
   },
