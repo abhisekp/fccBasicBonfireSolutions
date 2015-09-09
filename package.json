@@ -49,7 +49,7 @@
                 "test"
             ],
             "data-cover-reporter-options": {
-                "relativepath": true
+                "basepath": true
             }
         }
     }
