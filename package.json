@@ -3,20 +3,21 @@
     "main": "./lib/fcc-basic-bonfire-solutions",
     "private": true,
     "dependencies": {
-        "chai": "^3.2.0"
     },
     "version": "4.0.0",
     "description": "Abhisek Pattnaik FreeCodeCamp Basic Bonfire Challenge Solutions",
     "devDependencies": {
         "blanket": "^1.1.7",
         "coveralls": "^2.11.4",
+        "chai": "^3.2.0",
         "mocha": "^2.3.1",
         "mocha-lcov-reporter": "0.0.2",
-        "mocha-multi": "^0.7.1"
+        "mocha-multi": "^0.7.1",
+        "travis-cov": "^0.2.5"
     },
     "scripts": {
         "test": "NODE_ENV=test mocha --es_staging --harmony --recursive",
-        "coveralls": "multi='mocha-lcov-reporter=- html-cov=coverage.html' NODE_ENV=test YOURPACKAGE_COVERAGE=1 mocha --es_staging --harmony --recursive -r blanket -R mocha-multi --no-colors | coveralls"
+        "coveralls": "NODE_ENV=test YOURPACKAGE_COVERAGE=1 mocha --es_staging --harmony --recursive -r blanket -R mocha-lcov-reporter -C | coveralls"
     },
     "repository": {
         "type": "git",
