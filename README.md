@@ -1,4 +1,4 @@
-# FreeCodeCamp Basic Bonfire Solutions
+# FreeCodeCamp Challenge Solutions
 [![Build Status](https://travis-ci.org/abhisekp/FCC-Challenges.svg)](https://travis-ci.org/abhisekp/FCC-Challenges)
 [![Coverage Status](https://coveralls.io/repos/abhisekp/FCC-Challenges/badge.svg?branch=master&service=github)](https://coveralls.io/github/abhisekp/FCC-Challenges?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/6843eb46fbec4b52bb9abfc145d8ce05)](https://www.codacy.com/app/abhisekp/FCC-Challenges)
