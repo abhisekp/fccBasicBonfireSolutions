@@ -16,8 +16,8 @@
         "travis-cov": "^0.2.5"
     },
     "scripts": {
-        "test": "NODE_ENV=test mocha --es_staging --harmony --recursive",
-        "coveralls": "NODE_ENV=test YOURPACKAGE_COVERAGE=1 mocha --es_staging --harmony --recursive -r blanket -R mocha-lcov-reporter -C | coveralls"
+        "test": "NODE_ENV=test mocha --es_staging --harmony --recursive test",
+        "coveralls": "NODE_ENV=test YOURPACKAGE_COVERAGE=1 mocha --es_staging --harmony --recursive -r blanket -R mocha-lcov-reporter -C test | coveralls"
     },
     "repository": {
         "type": "git",
@@ -43,7 +43,7 @@
     "config": {
         "blanket": {
             "pattern": [
-                "lib"
+                "src"
             ],
             "data-cover-never": [
                 "node_modules",
