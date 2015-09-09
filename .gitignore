@@ -549,4 +549,4 @@ node_modules
 !.gitkeep
 !README.md
 coverage.html
-
+/bin/*_local.sh
