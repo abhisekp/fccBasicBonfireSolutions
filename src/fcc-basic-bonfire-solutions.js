@@ -23,7 +23,7 @@ function meetBonfire(argument) {
 
 
 # 02. Bonfire: Reverse a String
-> Reverse the provided string.
+> Reverse the provided string. Your result must be a string.
 http://freecodecamp.com/challenges/bonfire-reverse-a-string
 */
 function reverseString(str) {
