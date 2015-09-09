@@ -1,6 +1,7 @@
 var libPath = process.env.JS_COV ? "../lib-cov" : "../lib";
+var srcPath = "../src";
 
-var abhisekpFCCbasicBonfireSolutions = require(libPath +
+var abhisekpFCCbasicBonfireSolutions = require(srcPath +
         "/fcc-basic-bonfire-solutions"),
     apFCCbbfs = abhisekpFCCbasicBonfireSolutions;
 
