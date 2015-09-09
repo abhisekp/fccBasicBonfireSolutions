@@ -545,6 +545,8 @@ node_modules
 
 ### CUSTOM IGNORES ###
 # Override entries of GitIgnore API generated output
+!/bin/
 !.gitkeep
 !README.md
+coverage.html
 
