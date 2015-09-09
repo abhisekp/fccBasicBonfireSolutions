@@ -56,7 +56,8 @@ function factorializeWhile(num) {
 
 
 # 04. Bonfire: Check for Palindromes
-> Return true if the given string is a palindrome. Otherwise, return false. A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+> Return true if the given string is a palindrome. Otherwise, return false.
+A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
 http://freecodecamp.com/challenges/bonfire-check-for-palindromes
 */
 function palindromeReverse(str) {
@@ -415,7 +416,8 @@ function whereThouEvery(collection, source) {
 
 
 # 16. Bonfire: Seek and Destroy
-> You will be provided with an initial array (the first argument in the destroyer function), followed by one or more arguments. Remove all elements from the initial array that are of the same value as these arguments.
+> You will be provided with an initial array (the first argument in the destroyer function), followed by one or more arguments.
+Remove all elements from the initial array that are of the same value as these arguments.
 http://freecodecamp.com/challenges/bonfire-seek-and-destroy
 */
 function destroyerFor(arr) {
