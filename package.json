@@ -1,37 +1,55 @@
 {
-  "name": "fcc-challenges",
-  "main": "./lib/fcc-basic-bonfire-solutions",
-  "private": true,
-  "dependencies": {
-    "chai": "^3.2.0"
-  },
-  "version": "4.0.0",
-  "description": "Abhisek Pattnaik FreeCodeCamp Basic Bonfire Challenge Solutions",
-  "devDependencies": {
-    "mocha": "^2.3.1"
-  },
-  "scripts": {
-    "test": "mocha tests/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/abhisekp/FCC-Challenges.git"
-  },
-  "keywords": [
-    "fcc",
-    "freecodecamp",
-    "solution",
-    "bonfire",
-    "algorithm",
-    "challenge"
-  ],
-  "author": "Abhisek Pattnaik",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abhisekp/FCC-Challenges/issues"
-  },
-  "homepage": "https://github.com/abhisekp/FCC-Challenges#readme",
-  "directories": {
-    "test": "tests"
-  }
+    "name": "fcc-challenges",
+    "main": "./lib/fcc-basic-bonfire-solutions",
+    "private": true,
+    "dependencies": {
+        "chai": "^3.2.0"
+    },
+    "version": "4.0.0",
+    "description": "Abhisek Pattnaik FreeCodeCamp Basic Bonfire Challenge Solutions",
+    "devDependencies": {
+        "blanket": "^1.1.7",
+        "coveralls": "^2.11.4",
+        "mocha": "^2.3.1",
+        "mocha-blanket-lcov-reporter": "0.0.2",
+        "mocha-multi": "^0.7.1"
+    },
+    "scripts": {
+        "test": "multi='mocha-blanket-lcov-reporter=- html-cov=coverage.html' NODE_ENV=test mocha --es_staging --harmony --recursive -r blanket -R mocha-multi --no-colors | coveralls"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abhisekp/FCC-Challenges.git"
+    },
+    "keywords": [
+        "fcc",
+        "freecodecamp",
+        "solution",
+        "bonfire",
+        "algorithm",
+        "challenge"
+    ],
+    "author": "Abhisek Pattnaik",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/abhisekp/FCC-Challenges/issues"
+    },
+    "homepage": "https://github.com/abhisekp/FCC-Challenges#readme",
+    "directories": {
+        "test": "test"
+    },
+    "config": {
+        "blanket": {
+            "pattern": [
+                "lib"
+            ],
+            "data-cover-never": [
+                "node_modules",
+                "test"
+            ],
+            "data-cover-reporter-options": {
+                "relativepath": true
+            }
+        }
+    }
 }
