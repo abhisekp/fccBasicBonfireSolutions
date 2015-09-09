@@ -533,6 +533,7 @@ module.exports = {
     whereThouFor: whereThouFor,
     whereThouEvery: whereThouEvery,
     destroyerFor: destroyerFor,
+    destroyerReduce: destroyerReduce,
     destroyerIndexOf: destroyerIndexOf,
     whereBelongReduce: whereBelongReduce,
     whereSortOneLiner: whereSortOneLiner
