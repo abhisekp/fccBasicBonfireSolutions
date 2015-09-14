@@ -1,4 +1,6 @@
 # FreeCodeCamp Challenge Solutions
+
+[![Join the chat at https://gitter.im/abhisekp/FCC-Challenges](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/abhisekp/FCC-Challenges?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/abhisekp/FCC-Challenges.svg)](https://travis-ci.org/abhisekp/FCC-Challenges)
 [![Coverage Status](https://coveralls.io/repos/abhisekp/FCC-Challenges/badge.svg?branch=master&service=github)](https://coveralls.io/github/abhisekp/FCC-Challenges?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/6843eb46fbec4b52bb9abfc145d8ce05)](https://www.codacy.com/app/abhisekp/FCC-Challenges)
